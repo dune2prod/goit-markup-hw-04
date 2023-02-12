@@ -341,9 +341,15 @@ a {
 }
 
 /* =============footer================ */
+.footer-flexbox {
+  display: flex;
+}
 .footer {
   background-color: var(--sec-clr);
   display: flex;
+}
+.footer-socialmedia-box {
+  margin-left: 120px;
 }
 .footer-text {
   font-size: 16px;
@@ -389,6 +395,7 @@ a {
 .footer-socialmedia-list {
   display: flex;
   gap: 16px;
+  margin-top: 16px;
 }
 /* ==========GALLERY================ */
 .gallery {
