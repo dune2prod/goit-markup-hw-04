@@ -182,17 +182,37 @@ a {
 .features-list-item:not(:last-child) {
   margin-right: 24px;
 }
+.features-iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+.features-list-item-svgbox {
+  width: 64px;
+  height: 64px;
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 24px;
+  margin-bottom: 24px; */
+}
+
 .features-list-header {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--sec-clr);
+  margin-top: 8px;
 }
 .features-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 /* =============What we are doing================ */
 .company-descr {
@@ -232,6 +252,9 @@ a {
 }
 .our-team-list-item {
   background-color: var(--main-clr);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-list-item:not(:last-child) {
   margin-right: 24px;
@@ -252,7 +275,30 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   margin-top: 8px;
+  /* margin-bottom: 32px; */
+}
+.our-team-socialnetworks-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
   margin-bottom: 32px;
+}
+.our-team-socialnetworks-list-item {
+  display: flex;
+}
+.our-team-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--logo-main-clr);
+  border-radius: 50%;
+}
+.our-team-svgbox {
+  width: 16px;
+  height: 16px;
 }
 /* =============footer================ */
 .footer {
