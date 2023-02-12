@@ -300,6 +300,46 @@ a {
   width: 16px;
   height: 16px;
 }
+
+/* Section_5 Customers */
+.customers {
+}
+.customers-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--sec-clr);
+  margin-bottom: 72px;
+}
+/* icon-list */
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-list-item {
+}
+.customers-list-link {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.customers-svgbox {
+  width: 41px;
+  height: 47px;
+}
+
 /* =============footer================ */
 .footer {
   background-color: var(--sec-clr);
