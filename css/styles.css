@@ -296,6 +296,9 @@ a {
   background-color: var(--logo-main-clr);
   border-radius: 50%;
 }
+.our-team-link:hover {
+  background-color: var(--hover-nav-clr);
+}
 .our-team-svgbox {
   width: 16px;
   height: 16px;
@@ -335,9 +338,16 @@ a {
   justify-content: center;
   align-items: center;
 }
+.customers-list-link:is(:hover, :focus) {
+  border: 1px solid var(--hover-nav-clr);
+}
 .customers-svgbox {
   width: 41px;
   height: 47px;
+  fill: #8e8f99;
+}
+.customers-svgbox:hover {
+  fill: var(--hover-nav-clr);
 }
 
 /* =============footer================ */
@@ -390,6 +400,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+.footer-list-link:hover {
+  background: #31d0aa;
+}
 .footer-list-item {
 }
 .footer-socialmedia-list {
@@ -409,6 +422,11 @@ a {
 .gallery-list-item {
   margin-right: 24px;
   margin-top: 48px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.gallery-list-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .gallery-list-item:nth-child(3n + 3) {
   margin-right: 0;
